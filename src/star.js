@@ -15,11 +15,11 @@ export default class Star extends Component {
     let { onClick, onMouseEnter, isDisabled } = this.props
     if (isDisabled) {
       return (
-        <a className={className}>★</a>
+        <span className={className}>★</span>
       )
     }
     return (
-        <a className={className} onClick={onClick} onMouseEnter={onMouseEnter}>★</a>
+        <span className={className} onClick={onClick} onMouseEnter={onMouseEnter}>★</span>
     )
   }
 }
