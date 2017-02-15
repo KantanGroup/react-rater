@@ -5,7 +5,7 @@ $react-rater-active: #000 !default;
 .react-rater {
   display: inline-block;
   line-height: normal;
-  a {
+  span {
     cursor: pointer;
     color: $react-rater-link;
     position: relative;
